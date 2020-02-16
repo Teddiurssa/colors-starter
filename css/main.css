@@ -40,6 +40,7 @@ header {
 
 #column-2 {
     background: #4f3b2a;
+
 }
 
 #column-3 {
@@ -74,12 +75,16 @@ footer {
 
     #column-3 {
         background-color: cornflowerblue;
+        width: 100%;
     }
 
     footer {
         background-color: gold;
     }
 
+    .col-3 {
+        width: 50%;
+    }
 }
 
 
@@ -99,10 +104,14 @@ footer {
 
     #column-3 {
         background-color: aquamarine;
+        width: 33.3%;
     }
 
     footer {
         background-color: cadetblue;
     }
 
+    .col-3 {
+        width: 33.3%;
+    }
 }
